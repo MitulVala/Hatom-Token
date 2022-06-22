@@ -1,6 +1,6 @@
-# Hatom Token Design Demo App
+# Design Demo App
 
-This is a sample Design demo app done step-by-step.
+This is a sample design demo app done step-by-step.
 
 
 ## Instructions
@@ -12,10 +12,10 @@ $ git clone https://github.com/MitulVala/Hatom-Token.git
 
 Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
 ```bash
-$ npm install # or yarn
+$ npm install
 ```
 
 Run it
 ```bash
-$ npm start # or yarn start
+$ npm start
 ```
