@@ -15,6 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "lottie-react-web": "^2.2.2",
     "lottie-web": "^5.9.4",
+    "nth-check": "^2.1.1",
     "react": "^18.2.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^18.2.0",
