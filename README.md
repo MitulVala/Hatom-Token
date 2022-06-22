@@ -1,7 +1,6 @@
-# React Todo App
+# Hatom Token Design Demo App
 
-This is a sample react todo app done step-by-step.
-This sample app was a part of react workshop.
+This is a sample Design demo app done step-by-step.
 
 
 ## Instructions
