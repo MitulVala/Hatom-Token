@@ -1,0 +1,203 @@
+.partners-section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url('../../assets/images/patter.png');
+    background-position: right bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.darkbg {
+    background-color : rgb(3 18 34/1)
+}
+.lightbg {
+    background-color : rgb(255 255 255/1)
+}
+
+.partnersTitle{
+    font-size: 40px !important;
+    line-height: 1.25 !important;
+    font-weight: 600 !important;
+    color: #000;
+    text-align: left;
+    margin-bottom: 90px !important;
+}
+
+.partners-section .card-container{
+    margin-top: 4rem;
+}
+.darkCard{
+    background-color: rgb(11 32 55/1);
+}
+.lightCard{
+    background-color: rgb(232 236 243);
+}
+.partners-section .card{
+    margin: 0 30px 30px 0;
+    border-radius: 12px !important;
+    background: rgb(232 236 243) !important;
+    box-shadow: none !important;
+    padding: 2rem;
+    margin-right: 40px !important;
+    
+}
+.partners-section .imageContainer{
+    /* width: 250px; */
+    height: 86px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.imageContainer img{
+    height: 100%;
+    object-fit: cover;
+}
+.partners-section .cardDetail{
+    margin-top: 24px;
+    color: #000;
+    text-align: left;
+}
+.partners-section .cardDetail h5{
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-bottom: 26px;
+    font-weight: 600;
+}
+.partners-section .cardDetail p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 26px;
+}
+.partners-section .learn_moreBtn{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: rgba(53,85,247,.8);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.partners-section .learn_moreBtn img {
+    margin-left: 10px;
+}
+.partners-section .learn_moreBtn:hover{
+    background-color: rgba(53,85,247,.05);
+}
+
+.testimonial-container{
+    padding-top: 52px;
+    padding-bottom: 52px;
+    margin-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-image: url('../../assets/images/patter-box.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    
+}
+
+.testimonial-inner {
+    position: relative;
+    z-index: 9;
+}
+
+.testimonial-container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(89.89deg, #EFF3F9 -0.12%, rgba(239, 243, 249, 0) 95.76%);
+}
+
+.testimonial-container blockquote{
+    font-size: 25px;
+    color: #222222;
+    opacity: 0.8;
+    text-align: left;
+    margin-bottom: 24px;
+    max-width: 890px;
+}
+.testimonial-container .writtenBy{
+    font-size: 24px;
+    line-height: 38px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(23 48 104);
+}
+
+.darkbg .partnersTitle {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+
+    .testimonial-container {
+        margin-top: 30px !important;
+    }
+    
+    .subscribe-input input {
+        width: 100% !important;
+    }
+
+    .partners-section .card {
+        margin-right: 5px !important;
+        border-radius: 7px;
+        padding: 20px;
+        margin-bottom: 0;
+    }
+
+    .partners-section .card .imageContainer {
+        height: auto;
+    }
+
+    .partners-section .partnersTitle {
+        font-size: 40px !important;
+        line-height: 50px !important;
+        margin-bottom: 50px !important;
+        text-align: center;
+    }
+
+    .partners-section {
+        padding: 50px 0 !important;
+    }
+
+    .testimonial-container {
+        padding: 15px !important;
+    }
+    .testimonial-container blockquote {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
+    .testimonial-container .writtenBy {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .partners-section .imageContainer img {
+        max-height: 50px;
+    }
+
+    .cardDetail h3 {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 12px;
+    }
+
+    .partners-section .cardDetail p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .partners-section .learn_moreBtn {
+        font-size: 10px;
+        line-height: 12px;  
+    }
+}

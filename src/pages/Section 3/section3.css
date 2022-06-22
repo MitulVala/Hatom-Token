@@ -1,0 +1,138 @@
+.understanding-section{
+    background: linear-gradient(100.1deg,#132878 -3.95%,#03192f 21.83%,#021326 98.76%,#00460f 103.65%);
+    padding-top: 6rem;
+    padding-bottom: 3.5rem;
+}
+.understandingTitle{
+    font-size: 40px !important;
+    line-height: 1.25 !important;
+    font-weight: 600 !important;
+    color: #fff;
+    text-align: left;
+}
+.card-container{
+    margin-top: 4rem;
+}
+.card{
+    margin: 0 15px 30px;
+    border-radius: 12px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.imageContainer{
+    width: 100%;
+    height: 314px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.imageContainer img{
+    height: 100%;
+    object-fit: cover;
+}
+.cardDetail{
+    margin-top: 24px;
+    color: #fff;
+    text-align: left;
+}
+.cardDetail h3{
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-bottom: 26px;
+    font-weight: 600;
+}
+.cardDetail p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgb(206 224 241);
+    margin-bottom: 26px;
+}
+.learn_moreBtn{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: rgba(53,85,247,.8);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-self: center;
+
+}
+
+.learn_moreBtn img {
+    margin-left: 10px;
+}
+
+.learn_moreBtn:hover{
+    background-color: rgba(53,85,247,.05);
+}
+
+
+
+@media (max-width: 767px) {
+    .understanding-section .imageContainer img {
+        width: 100%;
+    }
+
+    .understanding-section{
+        padding: 50px 0;
+    }
+
+    .card-container {
+        margin-top: 20px !important;
+    }
+
+    .understandingTitle {
+        font-size: 24px !important;
+        line-height: 30px !important; 
+        margin-bottom: 30px;
+    }
+
+    .feature-container .feature h2 {
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .feature-container .feature p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .feature-container .feature {
+        margin: 0 0 20px 0;
+        max-width: unset;
+    }
+
+    .middle-section {
+        height: unset;
+    }
+
+    .feature-container .featureTitle {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .understanding-section .imageContainer {
+        border-radius: 0 !important;
+    }
+
+    .understanding-section .card {
+        border-radius: 0 !important;
+        margin: 0 0 40px 0;
+    }
+
+    .cardDetail h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .cardDetail p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+}
+
+

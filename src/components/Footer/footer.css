@@ -1,0 +1,120 @@
+.footer-section {
+    background-color: #031222;
+    padding: 95px 0 0 0;
+}
+
+.footer-title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 12px !important;
+    text-align: left;
+}
+
+.text-subscribe a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #8493B5;
+    margin-bottom: 12px !important;
+    text-decoration: none;
+    
+}
+
+.text-subscribe a:hover {
+    color: #fff;
+}
+
+.footer-logo {
+    text-align: left;
+}
+.footer-logo {
+        height: 32px;
+        width: 32px;
+        margin-bottom: 30px;
+}
+
+
+.app-Btn {
+    background: linear-gradient(93.58deg, rgba(0, 77, 0, 0.33) 7.62%, rgba(1, 48, 30, 0.33) 104.97%) !important;
+    font-size: 12px !important;
+    line-height: 26px;
+}
+
+.footerbottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    border-bottom: 1px solid rgba(132, 147, 181, 0.3);
+}
+
+
+.footerbottom p {
+    color: #8493B5;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+.btn-div {
+    text-align: right;
+}
+
+.footerbottom ul li {
+    padding: 4px 8px;
+}
+
+.footerbottom ul li a {
+    color: #8493B5;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+}
+
+.footerbottom ul li svg {
+    display: block;
+    width: 20px;
+}
+
+.footerbottom ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px !important;
+}
+
+.blockslot {
+    color: #8493B5;
+    font-weight: 400;
+    font-size: 11px !important;
+    line-height: 24px !important;
+    padding-top: 30px !important;
+    padding-bottom: 51px !important;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+}
+
+.blockslot::before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-color: #00D395;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .footer-section {
+        padding-top: 20px !important;
+    }
+}

@@ -1,0 +1,62 @@
+.hero-section {
+  /* background: url("../../assets/section\ 1/bg.svg") no-repeat;
+  background-size: 100%; 
+  height: 100vh;*/
+  width: 100%;
+  position: relative;
+}
+.hero-section .heroTitle-content{
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-top: 7.8vw;
+  z-index: 50;
+}
+.heroTitle-content .heroTitle{
+  font-size: 58px;
+  font-weight: bolder;
+  color: #fff;
+}
+.heroTitle-content .heroSubtitle{
+  font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgb(61 144 106);
+}
+.hero-section .loading-resource{
+  width: 100%;
+}
+.hero-section .people-img, .hero-section .machine-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+@media (max-width: 767px) {
+
+.heroTitle-content .heroTitle {
+  font-size: 41px !important;
+  line-height: 40px !important;
+  margin-bottom: 15px !important;
+}
+
+.heroTitle-content .heroSubtitle {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.hero-section {
+  padding-top: 250px; 
+  background-repeat: no-repeat;
+  background-color: #031222;
+}
+
+.hero-section .people-img, .hero-section .machine-img {
+  width: 100%;
+  top: 250px;
+  margin-bottom: 0;
+}
+
+.hero-section .heroTitle-content {top: 100px;}
+
+}

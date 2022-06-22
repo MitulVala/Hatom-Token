@@ -1,0 +1,97 @@
+.subscribe-section{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background: linear-gradient(90deg,#265b5c,#11206b);
+}
+.subscribe-section .Subscribe-title{
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.25;
+    font-weight: 600;
+}
+.subscribe-section p{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.subscribe-input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+
+.text-subscribe {
+    margin-bottom: 27px !important;
+}
+
+.subscribe-input input {
+    background: #315B82;
+    border-radius: 12px;
+    width: 600px;
+    padding: 25px 32px;
+    outline: 0 !important;
+    border: 0 !important;  
+    animation-name: none !important;
+    color: #fff;
+}
+
+.subscribe-input button {
+    position: absolute;
+    height: 50px;
+    right: 10px;
+    top: 10px;
+    padding: 16px 30px !important;
+    border-radius: 12px !important;
+}   
+
+
+@media (max-width: 767px) {
+    .subscribe-section {
+        padding: 50px 0;
+        
+    }
+
+    .subscribe-section h5 {
+        font-size: 32px !important;
+        line-height: 37px !important;
+    }
+
+    .subscribe-section p {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+
+    .subscribe-input input {
+        width: 100%;
+        padding: 20px 20px;
+        /* min-width: 100%; */
+    }
+
+    .subscribe-input {
+        justify-content: center;
+        display: flex !important;
+    }
+
+    .subscribe-input button {
+        position: unset;
+        margin-top: 40px;
+        height: 50px;
+        right: 10px;
+        top: 10px;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding: 12px 30px !important;
+        border-radius: 8px !important;
+    }   
+
+    .subscribe-section 
+        .css-1ptx2yq-MuiInputBase-root-MuiInput-root{
+            width: 100%;
+        }
+    
+}

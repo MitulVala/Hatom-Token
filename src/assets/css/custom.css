@@ -1,0 +1,14 @@
+.text-blue{
+    color: rgb(53 85 247);
+}
+.gradientBtn{
+    background: linear-gradient(90deg,#46a273 -.2%,#46a273 .36%,#133641 100.2%) !important;
+}
+.primaryButton{
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+    border-radius: 0.25rem !important;
+    padding: 0.625rem !important;
+    color: #fff !important;
+    text-transform: capitalize !important;
+}

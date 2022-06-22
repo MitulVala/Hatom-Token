@@ -1,0 +1,169 @@
+.header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background: transparent;
+  z-index: 99;
+  height: 80px;
+}
+.header-container{
+  justify-content: space-between;
+}
+.header-inner {
+  padding: 25px 40px;
+  display: flex;
+  position: relative;
+}
+
+.header-sticky {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 54px 0 rgba(0, 0, 0, 0.08);
+  animation: moveDown 0.5s ease-in-out;
+  z-index: 99;
+  height: 80px;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+
+  to {
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(360deg);
+  }
+
+  100% {
+    transform: rotateY(0rem);
+  }
+}
+
+.navLink {
+  font-family: 'CeraPro-Bold';
+  color: #fff;
+  font-size: .875rem !important;
+  line-height: 1.25rem !important;
+  font-style: normal;
+  text-align: right;
+  font-weight: 600 !important;
+  margin-left: 33px;
+  font-stretch: normal;
+  letter-spacing: 0.47px;
+  cursor: pointer;
+}
+.headerButton{
+  font-size: 0.75rem !important;
+  line-height: 0.75rem !important;
+  border-radius: 0.25rem !important;
+  padding: 0.625rem !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+}
+.header-inner .wrapper.switch-button {
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: -30px;
+}
+.wrapper .switch {
+  width: 44px;
+  height: 20px;
+}
+.wrapper .switch .slider:before, .wrapper .switch .slider:after {
+  height: 20px;
+  width: 20px;
+  bottom: 0px;
+  left: 0px;
+}
+.wrapper .switch .wave{
+  width: 44px;
+  height: 20px;
+}
+
+/*-------responsive------------------*/
+@media (max-width: 599px) {
+  .header-inner {
+    justify-content: center;
+    padding: 15px 0px;
+  }
+
+  .navLink {
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+
+.btn-open {
+  display: none;
+}
+.btn-close {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  
+  .menu-hide {
+    display: none !important;
+  }
+
+  .headerButton {
+    margin-right: 50px !important;
+  } 
+
+  .btn-open {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='17' viewBox='0 0 20 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='19.2' height='2.2' rx='1.1' fill='white'/%3E%3Crect x='0.200195' y='7.40039' width='19.2' height='2.2' rx='1.1' fill='white'/%3E%3Crect y='14' width='19.2' height='2.2' rx='1.1' fill='white'/%3E%3C/svg%3E%0A");
+    height:35px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .menuopen {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(100.1deg,#132878 -3.95%,#03192f 21.83%,#021326 98.76%,#00460f 103.65%); 
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    /* display: none !important; */
+  }
+  .header-inner {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .btn-open {
+    display: block;
+  }
+
+  .btn-close {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}

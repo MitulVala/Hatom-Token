@@ -1,0 +1,108 @@
+.middle-section{
+    height: 848px;
+}
+.darkbg {
+    background-color : rgb(3 18 34/1)
+}
+.lightbg {
+    background-color : rgb(255 255 255/1)
+}
+.buyToken-container{
+    padding-top: 2.5rem;
+}
+.buyToken-content h4{
+    font-weight: 600;
+    font-size: 34px;
+    color: #000;
+}
+.buyToken-content h4 span{
+    color: rgb(23 156 100);
+}
+.buyToken-content p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgb(92 92 92);
+    font-weight: 600;
+}
+
+.feature-container{
+    margin-top: 100px;
+}
+.feature-container .featureTitle{
+    font-size: 40px;
+    text-align: left;
+    line-height: 1.25;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.feature-container .feature{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+.feature-container .feature h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #000;
+
+}
+.feature-container .feature p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    opacity: 0.8;
+    color: #000;
+    margin-top: 30px;
+}
+.feature1{
+    max-width: 340px;
+}
+.feature2{
+    max-width: 300px;
+    margin-top: 100px;
+}
+.feature3{
+    max-width: 340px;
+}
+.feature ul.feature-subpoints li::before{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background:rgb(23 156 100);
+    top: 0;
+    right: 0;
+}
+
+.lightbg .feature-container .featureTitle, .lightbg .feature-subpoints, .lightbg .feature-container .feature h2, .lightbg .feature-container .feature p, .lightbg .buyToken-content h4 {
+    color: #222222;
+}
+
+.darkbg .feature-container .featureTitle, .darkbg .feature-subpoints, .darkbg .feature-container .feature h2, .darkbg .feature-container .feature p, .darkbg .buyToken-content h4 {
+    color: #fff;
+}
+
+
+
+@media (max-width: 767px) {
+    .buyToken-content h4 {
+        font-size: 24px !important;
+        line-height: 23px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .buyToken-content p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px !important;
+    }
+
+    .buyToken-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
