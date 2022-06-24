@@ -88,7 +88,7 @@ function Footer(props) {
 
           <Grid container>
             <Grid lg={12} xs={12}>
-              <div class="footerbottom">
+              <div className="footerbottom">
               <Typography>© 2022 Hatom ,LLC.</Typography>
                 <ul>
                 <li>

@@ -12,7 +12,7 @@ import third from "../../assets/section2/3.json";
 function Section3() {
     return (
         <>
-            <div className='understanding-section'>
+            <div className='understanding-section'  id="three">
                 <Container>
                     <Typography varient="h2" component="h2" className='understandingTitle'>
                         Understanding Hatom

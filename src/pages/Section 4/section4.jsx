@@ -38,7 +38,7 @@ function Section4() {
     };
     return (
         <>
-            <div className={(isDarkModeOn) ? "partners-section darkbg" : "partners-section lightbg"} >
+            <div className={(isDarkModeOn) ? "partners-section darkbg" : "partners-section lightbg"}   id="four">
                 <Lottie
                     options={{
                         animationData: electronics,

@@ -14,7 +14,7 @@ function Section2(props) {
 
   return (
     <>
-        <div className={ (isDarkModeOn) ? "middle-section darkbg" : "middle-section lightbg"} >
+        <div className={ (isDarkModeOn) ? "middle-section darkbg" : "middle-section lightbg"}  id="two">
             <Container>
                 <Grid container className='buyToken-container'>
                     <Grid items lg={6} xs={12}>
