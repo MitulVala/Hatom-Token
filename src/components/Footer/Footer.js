@@ -4,17 +4,13 @@ import "./footer.css";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import Input from "@mui/material/Input";
-import FormControl from "@mui/material/FormControl";
-import InputLabel from "@mui/material/InputLabel";
-import { Image } from "@mui/icons-material";
 import { Link } from "@mui/material";
 import logofooter from "../../assets/images/footer-logo.png";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import RedditIcon from '@mui/icons-material/Reddit';
 
-function Footer(props) {
+function Footer() {
   return (
     <>
       <div className="footer-section">
@@ -88,7 +84,7 @@ function Footer(props) {
 
           <Grid container>
             <Grid lg={12} xs={12}  sm={12}>
-              <div class="footerbottom">
+              <div className="footerbottom">
               <Typography>© 2022 Hatom ,LLC.</Typography>
                 <ul>
                 <li>

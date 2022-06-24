@@ -40,7 +40,7 @@ function Section2(props) {
                 </Grid>
                 <Grid container className='feature-container'>
                     <Typography variant='h2' className='featureTitle'>
-                        <span class="text-blue">Features </span>
+                        <span className="text-blue">Features </span>
                         of Hatom Token
                     </Typography>
                     <Grid items lg={4} md={4} xs={12}>
@@ -52,7 +52,7 @@ function Section2(props) {
                             Stake your Hatom tokens to earn a share of the protocol's revenue. Dividends are paid in EGLD, USDC, MEX, HTM, and RIDE.
                             </Typography>
                         </div>
-                        <div className='feature feature2'>
+                        <div className='feature feature2' id="sticky-coins">
                             <Typography variant='h2'>
                             Vote
                             </Typography>

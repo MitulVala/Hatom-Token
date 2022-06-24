@@ -423,6 +423,33 @@ body {
   position: absolute;
 }
 
+.pinSpacer {
+  order: 0;
+  place-self: 'auto';
+  grid-area: 'auto/auto/auto/auto';
+  z-index: 'auto';
+  float: 'none';
+  flex-shrink: 1;
+  display: 'block';
+  margin: '0px';
+  inset: 'auto';
+  position: 'relative';
+  flex-basis: 'auto';
+  overflow: 'visible';
+  box-sizing: 'border-box'
+}
+
+.trigger {
+  transform: 'translate(0px, 0px)';
+  inset: '0px auto auto 0px';
+  margin: '0px';
+  max-width: '1833px';
+  width: '1833px';
+  max-height: '270px';
+  height: '270px';
+  padding: '0px'
+}
+
 @keyframes fishMovement {
   60% {
     transform: translate(-50%, 50%);
@@ -478,7 +505,7 @@ body {
   }
 }
 
-.rotatedCoinTop {
+body .App .rotatedCoinTop {
   top: 26vh;
   top: 80vw;
   position: fixed;
@@ -491,10 +518,27 @@ body {
 @media (min-width: 640px) {
   .rotatedCoinTop {
     top: 30vw !important;
+    margin-right: 30px;
   }
 }
 
+.hero-section .people-img,
+.hero-section .machine-img {
+  z-index: 99 !important;
+}
 
+.sticky-conin {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 170px !important;
+  z-index: 999 !important;
+}
+
+.heroTitle-content {
+  z-index: 999 !important;
+}
 
 .absolute {
   position: absolute
@@ -3977,15 +4021,7 @@ header .hamburger {
   }
 }
 
-.rotatedCoinTop {
-  top: 80vw
-}
 
-@media (min-width: 640px) {
-  .rotatedCoinTop {
-    top: 30vw
-  }
-}
 
 .animatedLock {
   min-width: 451px;
