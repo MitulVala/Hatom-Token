@@ -11,16 +11,22 @@ import Section6 from './pages/Section 6/section6';
 import $ from "jquery";
 import coin from "./assets/section1/coin.png";
 
+let startPoint = 500;
+let scrollStart = 500;
+let scrollEnd = 1200;
+if(window.innerWidth <= 640){
+  startPoint = 0;
+  scrollStart = 100;
+  scrollEnd = 350;
+}
 $(window).on("scroll touchmove", function () {
-  console.log("$(document).scrollTop()", $(document).scrollTop());
   let scrollTop = $(document).scrollTop();
   let newScrollTop = 0;
-  console.log("#one", $('#one').scrollTop());
-  if (scrollTop <= 500) {
+  if (scrollTop <= startPoint) {
     $('#coin-image').css('background-position-y', '200%');
     $('#trigger').css('transform', 'translate(0px, 0px)');
-  } else if (scrollTop > 500) {
-    if (scrollTop >= 1200) {
+  } else if (scrollTop > scrollStart) {
+    if (scrollTop >= scrollEnd) {
       $('#coin-image').css('background-position-y', '2200%');
       $(".pin-spacer").addClass("sticky-conin");
       $('.rotatedCoinTop').css('position', 'unset');
@@ -28,12 +34,9 @@ $(window).on("scroll touchmove", function () {
       $('#trigger').css('transform', 'translate(0px, 0px)');
       $('.rotatedCoinTop').css('position', 'fixed');
       $(".pin-spacer").removeClass("sticky-conin");
-      console.log("scrollTop", scrollTop, newScrollTop);
       newScrollTop = scrollTop - 400;
       let per = Math.floor(newScrollTop / 10);
-      console.log("per", per);
       per = Math.floor((per * 10) / 100) * 300;
-      console.log("perperper", per);
       $('#coin-image').css('background-position-y', per + '%')
     }
   }
@@ -50,7 +53,7 @@ function App() {
           <div className='pin-spacer pinSpacer' >
 
             <div id="trigger" className='trigger' style={{
-              
+
             }}>
               <div className='flex justify-center' id="coin-wrapper">
                 <div id="coin-image" className='w-[31vw] h-[31vw] -translate-x-1 sm:translate-x-0 sm:w-[18.51vw] sm:h-[18.51vw] aspect-square max-h-[270px] max-w-[270px]' style={{

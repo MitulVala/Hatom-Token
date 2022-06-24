@@ -522,6 +522,11 @@ body .App .rotatedCoinTop {
   }
 }
 
+@media (max-width: 767px) {
+  .sticky-conin {
+    bottom: 70px !important;
+  }
+}
 .hero-section .people-img,
 .hero-section .machine-img {
   z-index: 99 !important;
