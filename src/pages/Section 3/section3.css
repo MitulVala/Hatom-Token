@@ -67,14 +67,13 @@
 }
 
 
-
-@media (max-width: 767px) {
+@media (max-width: 992px) {
     .understanding-section .imageContainer img {
         width: 100%;
     }
 
     .understanding-section{
-        padding: 50px 0;
+        padding: 80px 0;
     }
 
     .card-container {
@@ -124,8 +123,78 @@
     }
 
     .cardDetail h3 {
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 20px !important;
+        line-height: 22px !important;
+        margin-bottom: 26px;
+    }
+
+    .cardDetail p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .understanding-section .imageContainer img {
+        width: 100%;
+    }
+
+    .understanding-section{
+        padding: 80px 0;
+    }
+
+    .card-container {
+        margin-top: 20px !important;
+    }
+
+    .understandingTitle {
+        font-size: 24px !important;
+        line-height: 30px !important; 
+        margin-bottom: 30px;
+    }
+
+    .feature-container .feature h2 {
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .feature-container .feature p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .feature-container .feature {
+        margin: 0 0 20px 0;
+        max-width: unset;
+    }
+
+    .middle-section {
+        height: unset;
+    }
+
+    .feature-container .featureTitle {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .understanding-section .imageContainer {
+        border-radius: 0 !important;
+    }
+
+    .understanding-section .card {
+        border-radius: 0 !important;
+        margin: 0 0 40px 0;
+    }
+
+    .cardDetail h3 {
+        font-size: 20px !important;
+        line-height: 22px !important;
+        margin-bottom: 26px;
     }
 
     .cardDetail p {

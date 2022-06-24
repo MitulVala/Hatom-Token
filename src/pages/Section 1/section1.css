@@ -13,9 +13,14 @@
   z-index: 50;
 }
 .heroTitle-content .heroTitle{
-  font-size: 58px;
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 800px;
+  letter-spacing: 0.06px;
   font-weight: bolder;
   color: #fff;
+  text-shadow: 3px 4px 17px rgba(255, 255, 255, 0.2);
+  margin-bottom: 8px;
 }
 .heroTitle-content .heroSubtitle{
   font-size: 1.125rem;
@@ -32,23 +37,60 @@
 }
 
 
+@media (max-width: 992px) and (min-width: 768px) {
+
+
+  .heroTitle-content .heroTitle {
+    font-size: 50px !important;
+    line-height: 56px !important;
+    margin-bottom: 11px !important;
+  }
+
+  .hero-section .people-img, .hero-section .machine-img {
+    width: 100%;
+    top: 100px;
+    margin-bottom: 0;
+}
+  
+.hero-section {
+  padding-top: 100px; 
+  background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(3,18,34,1) 0%, rgba(0,0,0,0) 100%);
+
+}
+  .heroTitle-content .heroSubtitle {
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 365px;
+    margin: 0 auto;
+  }
+
+
+}
+
 @media (max-width: 767px) {
+
+
 
 .heroTitle-content .heroTitle {
   font-size: 41px !important;
   line-height: 40px !important;
-  margin-bottom: 15px !important;
+  margin-bottom: 11px !important;
 }
 
 .heroTitle-content .heroSubtitle {
   font-size: 18px;
   line-height: 26px;
+  max-width: 365px;
+  margin: 0 auto;
 }
+
+
 
 .hero-section {
   padding-top: 250px; 
   background-repeat: no-repeat;
-  background-color: #031222;
+  background: linear-gradient(180deg, rgba(3,18,34,1) 0%, rgba(3,18,34,1) 50%, rgba(255,255,255,1) 50%);
 }
 
 .hero-section .people-img, .hero-section .machine-img {
@@ -59,4 +101,8 @@
 
 .hero-section .heroTitle-content {top: 100px;}
 
+.header-inner img{
+  top: 3px;
+  position: relative;
+}
 }

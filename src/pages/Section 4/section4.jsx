@@ -19,18 +19,19 @@ function Section4() {
 
     var settings = {
         dots: false,
-        arrows: false,
+        arrows: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
+        rows: 1,
         slidesToScroll: 1,
-        // variableWidth: true
         responsive: [
             {
                 breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    variableWidth: false,
                     rows: 2,
                 }
             }
@@ -38,7 +39,7 @@ function Section4() {
     };
     return (
         <>
-            <div className={(isDarkModeOn) ? "partners-section darkbg" : "partners-section lightbg"} >
+            <div className={(isDarkModeOn) ? "partners-section darkbg" : "partners-section lightbg"}   id="four">
                 <Lottie
                     options={{
                         animationData: electronics,
@@ -52,8 +53,9 @@ function Section4() {
                     <Typography varient="h2" component="h2" className='partnersTitle'>
                         Partners
                     </Typography>
+                    <div>
                     <Slider {...settings}>
-                        <Grid lg={12}>
+                        <div className='div-slider'>
                             <Card className={(isDarkModeOn) ? 'card darkCard' : 'card lightCard'}>
                                 <div className='imageContainer'>
                                     <img src={img1} alt='img' />
@@ -72,8 +74,9 @@ function Section4() {
                                     </a>
                                 </div>
                             </Card>
-                        </Grid>
-                        <Grid lg={12} >
+                        </div>
+                           
+                      <div>
                             <Card className='card'>
                                 <div className='imageContainer'>
                                     <img src={img2} alt='img' />
@@ -92,8 +95,9 @@ function Section4() {
                                     </a>
                                 </div>
                             </Card>
-                        </Grid>
-                        <Grid lg={12}>
+                        </div>
+                        
+                        <div>
                             <Card className='card'>
                                 <div className='imageContainer'>
                                     <img src={img3} alt='img' />
@@ -112,8 +116,10 @@ function Section4() {
                                     </a>
                                 </div>
                             </Card>
-                        </Grid>
+                        </div>
                     </Slider>
+                    </div>
+                    
                 </Container>
                 <Container>
                     <div className='testimonial-container'>

@@ -24,7 +24,7 @@ function Section1() {
     },
   };
   return (
-    <div className='hero-section'>
+    <div className='hero-section' id="one">
       <div className='heroTitle-content'>
         <Typography className='heroTitle'>Hatom Token</Typography>
         <Typography className='heroSubtitle'>

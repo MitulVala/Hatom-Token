@@ -1,6 +1,5 @@
 .subscribe-section{
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding: 70px 0;
     background: linear-gradient(90deg,#265b5c,#11206b);
 }
 .subscribe-section .Subscribe-title{
@@ -52,29 +51,42 @@
 
 @media (max-width: 767px) {
     .subscribe-section {
-        padding: 50px 0;
+        padding: 70px 0;
         
     }
 
     .subscribe-section h5 {
         font-size: 32px !important;
         line-height: 37px !important;
+        margin-bottom: 30px !important;
     }
 
     .subscribe-section p {
         font-size: 18px !important;
         line-height: 24px !important;
+        margin-bottom: 30px !important;
     }
 
     .subscribe-input input {
         width: 100%;
         padding: 20px 20px;
+        width: 100% !important;
+        text-align: center;
         /* min-width: 100%; */
+    }
+
+    .subscribe-input div {
+        max-width: 363px;
+        width: 100% !important;
+        margin: 0 auto !important;
     }
 
     .subscribe-input {
         justify-content: center;
         display: flex !important;
+        max-width: 363px;
+        width: 100% !important;
+        margin: 0 auto !important;
     }
 
     .subscribe-input button {

@@ -20,14 +20,14 @@ function Footer(props) {
       <div className="footer-section">
         <Container>
           <Grid container>
-            <Grid  lg={10} md={12} xs={12}>
+            <Grid  lg={10} md={12} xs={12} sm={10}>
               <Grid container>
-                <Grid  lg={3}  md={6} sm={6}  xs={12}>
+                <Grid  lg={3}  md={3} sm={3}  xs={12}>
                   <div className="footer-logo">
                     <img src={logofooter} />
                   </div>
                 </Grid>
-                <Grid  lg={3}  md={6} sm={6} xs={6}>
+                <Grid  lg={3}  md={3} sm={3} xs={6}>
                   <Typography
                     varient="h3"
                     component="h5"
@@ -42,7 +42,7 @@ function Footer(props) {
                   </Typography>
                 </Grid>
 
-                <Grid  lg={3}  md={6} sm={6} xs={6}>
+                <Grid  lg={3}  md={3} sm={3} xs={6}>
                   <Typography
                     varient="h3"
                     component="h5"
@@ -56,7 +56,7 @@ function Footer(props) {
                   </Typography>
                 </Grid>
 
-                <Grid  lg={3} md={6} sm={6} xs={12}>
+                <Grid  lg={3} md={3} sm={3} xs={12}>
                   <Typography
                     varient="h3"
                     component="h5"
@@ -73,7 +73,7 @@ function Footer(props) {
               </Grid>
             </Grid>
 
-            <Grid  lg={2}  md={12} xs={1}>
+            <Grid  lg={12}  md={12} sm={2} xs={1}>
               <div className="btn-div">
                    
             <Button
@@ -87,7 +87,7 @@ function Footer(props) {
           </Grid>
 
           <Grid container>
-            <Grid lg={12} xs={12}>
+            <Grid lg={12} xs={12}  sm={12}>
               <div class="footerbottom">
               <Typography>© 2022 Hatom ,LLC.</Typography>
                 <ul>

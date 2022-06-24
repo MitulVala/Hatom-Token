@@ -6,7 +6,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
+import ListItemText from '@mui/material/ListItemText'
 import { ThemeModeContext } from '../../contexts/ThemeModeContext';
 
 function Section2(props) {
@@ -14,8 +14,12 @@ function Section2(props) {
 
   return (
     <>
-        <div className={ (isDarkModeOn) ? "middle-section darkbg" : "middle-section lightbg"} >
+        <div className={ (isDarkModeOn) ? "middle-section darkbg" : "middle-section lightbg"}  id="two">
             <Container>
+                <div className='mobile-reverse'>
+                    <div className='mobile-image'>
+                        <img src={require("../../assets/images/section-2.png")} />
+                    </div>
                 <Grid container className='buyToken-container'>
                     <Grid items lg={6} xs={12}>
                         <div className='buyToken-content'>
@@ -39,7 +43,7 @@ function Section2(props) {
                         <span class="text-blue">Features </span>
                         of Hatom Token
                     </Typography>
-                    <Grid items lg={4}>
+                    <Grid items lg={4} md={4} xs={12}>
                         <div className='feature feature1'>
                             <Typography variant='h2'>
                                 Earn
@@ -58,10 +62,10 @@ function Section2(props) {
                         </div>
 
                     </Grid>
-                    <Grid items lg={4}>
+                    <Grid items lg={4} md={4} xs={12}>
                         
                     </Grid>
-                    <Grid items lg={4}>
+                    <Grid items lg={4} md={4} xs={12}>
                         <div className='feature feature3'>
                             <Typography variant='h2'>
                             Supply & Borrow
@@ -84,6 +88,8 @@ function Section2(props) {
                         </div>
                     </Grid>
                 </Grid>
+                </div>
+               
             </Container>
         </div>
     </>

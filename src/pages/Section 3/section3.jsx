@@ -12,13 +12,13 @@ import third from "../../assets/section2/3.json";
 function Section3() {
     return (
         <>
-            <div className='understanding-section'>
+            <div className='understanding-section'  id="three">
                 <Container>
                     <Typography varient="h2" component="h2" className='understandingTitle'>
                         Understanding Hatom
                     </Typography>
                     <Grid container className='card-container'>
-                        <Grid items lg={4}>
+                        <Grid items xl={4} lg={4} md={4}>
                             <Card className='card'>
                                 <div className='imageContainer'>
                                     <Lottie
@@ -45,7 +45,7 @@ function Section3() {
                                 </div>
                             </Card>
                         </Grid>
-                        <Grid items lg={4}>
+                        <Grid items  xl={4} lg={4} md={4}>
                             <Card className='card'>
                                 <div className='imageContainer'>
                                     <Lottie
@@ -72,7 +72,7 @@ function Section3() {
                                 </div>
                             </Card>
                         </Grid>
-                        <Grid items lg={4}>
+                        <Grid items xl={4} lg={4} md={4}>
                             <Card className='card'>
                                 <div className='imageContainer'>
                                     <Lottie
