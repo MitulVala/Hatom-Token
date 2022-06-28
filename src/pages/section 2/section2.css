@@ -174,6 +174,7 @@
         top: 80px;
         left: 30px;
         right: 0;
+        opacity: 0;
              
     }
 
@@ -323,7 +324,7 @@
         top: 80px;
         left: 30px;
         right: 0;
-             
+        opacity: 0;
     }
 
     .mobile-reverse .mobile-image img {

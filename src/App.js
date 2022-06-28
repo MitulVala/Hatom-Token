@@ -11,14 +11,18 @@ import Section6 from './pages/Section 6/section6';
 import $ from "jquery";
 import coin from "./assets/section1/coin.png";
 
+
 let startPoint = 500;
 let scrollStart = 500;
 let scrollEnd = 1200;
-if(window.innerWidth <= 640){
-  startPoint = 0;
-  scrollStart = 100;
-  scrollEnd = 350;
-}
+// if(window.innerWidth <= 640){
+//   startPoint = 0;
+//   scrollStart = 100;
+//   scrollEnd = 350;
+// }
+
+
+
 $(window).on("scroll touchmove", function () {
   let scrollTop = $(document).scrollTop();
   let newScrollTop = 0;
@@ -42,6 +46,48 @@ $(window).on("scroll touchmove", function () {
   }
 
 });
+
+if($(window).width() <= 767){
+  let startPoint = 300;
+  let scrollStart = 150;
+  let scrollEnd = 450;
+
+  $(window).on("scroll touchmove", function () {
+    let scrollTop = $(document).scrollTop();
+    let newScrollTop = 0;
+    if (scrollTop <= startPoint) {
+      $('#coin-image').css('background-position-y', '0%');
+      $('#trigger').css('transform', 'translate(0px, 0px)');
+      $('.rotatedCoinTop').css('position', 'fixed');
+    } else if (scrollTop > scrollStart) {
+      if (scrollTop >= scrollEnd) {
+        $('#coin-image').css('background-position-y', '35%');
+        $(".pin-spacer").addClass("sticky-conin");
+        $('.rotatedCoinTop').css('position', 'absolute');
+      } else {
+        $('#trigger').css('transform', 'translate(0px, 0px)');
+        $('.rotatedCoinTop').css('position', 'fixed');
+        $(".pin-spacer").removeClass("sticky-conin");
+        newScrollTop = scrollTop - 180;
+        let per = Math.floor(newScrollTop / 10);
+        per = Math.floor((per * 10) / 100) * 700;
+        $('#coin-image').css('background-position-y', per + '%')
+      }
+    }
+  
+  });
+
+  
+    $(window).on('scroll', function() {
+      if ($(this).scrollTop() > 280) {
+        $('.rotatedCoinTop').addClass('fixedconin');
+        $('.rotatedCoinTop').css('position', 'absolute');
+      } else {
+        $('.rotatedCoinTop').removeClass('fixedconin');
+      }
+    });
+
+}
 
 function App() {
   return (

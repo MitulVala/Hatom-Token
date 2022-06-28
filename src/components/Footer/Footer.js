@@ -69,7 +69,7 @@ function Footer() {
               </Grid>
             </Grid>
 
-            <Grid  lg={12}  md={12} sm={2} xs={1}>
+            <Grid  lg={2}  md={12} sm={2} xs={1}>
               <div className="btn-div">
                    
             <Button

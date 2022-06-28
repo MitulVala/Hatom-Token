@@ -70,7 +70,37 @@
 
 @media (max-width: 767px) {
 
+  #coin-image {
+    background-size: 80% !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    height: 100px !important;
+    margin-left: 10px !important;
+    
+  }
 
+  body .App .rotatedCoinTop {
+    top: 40vh !important;
+  }
+
+  body .App .rotatedCoinTop.fixedconin {
+    top: 75vh !important;
+  }
+
+
+
+  .fixedconin {
+    position: absolute !important;
+    bottom: -100px !important;
+    top: 150vh !important;
+  }
+  .fixedconin .sticky-conin{ position: unset !important;}
+
+  .fixedconin #coin-image {
+    background-position-y: 0 !important;
+  }
+
+ 
 
 .heroTitle-content .heroTitle {
   font-size: 41px !important;
