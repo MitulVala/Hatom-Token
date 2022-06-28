@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/Hatom-Token/static/css/main.febe0935.css",
-    "main.js": "/Hatom-Token/static/js/main.d5067d72.js",
+    "main.css": "/Hatom-Token/static/css/main.89f4f391.css",
+    "main.js": "/Hatom-Token/static/js/main.286f666e.js",
     "static/js/787.c7064180.chunk.js": "/Hatom-Token/static/js/787.c7064180.chunk.js",
     "static/media/bg-light.svg": "/Hatom-Token/static/media/bg-light.898cb428b307146400cefca1ed9369f8.svg",
     "static/media/bg-dark.svg": "/Hatom-Token/static/media/bg-dark.22640d3d680543db34f8181959ba4c0d.svg",
     "static/media/coin.png": "/Hatom-Token/static/media/coin.f4bdc12772514646f981.png",
+    "static/media/bg-mobile.png": "/Hatom-Token/static/media/bg-mobile.c51da9ff809e95400b96.png",
+    "static/media/bg-mobile-dark.png": "/Hatom-Token/static/media/bg-mobile-dark.4601af1d6f7e30af991d.png",
     "static/media/img41.png": "/Hatom-Token/static/media/img41.ab07042be87a4b2bfb70.png",
     "static/media/people.svg": "/Hatom-Token/static/media/people.e77839d41d51b38e60d7817278503f06.svg",
     "static/media/people-dark.svg": "/Hatom-Token/static/media/people-dark.873151a2b5edc2b187606f30a23b3e1c.svg",
@@ -13,7 +15,9 @@
     "static/media/NHaasGroteskTXPro-65Md.woff": "/Hatom-Token/static/media/NHaasGroteskTXPro-65Md.759f970bccd4dfe68e71.woff",
     "static/media/NHaasGroteskTXPro-55Rg.woff": "/Hatom-Token/static/media/NHaasGroteskTXPro-55Rg.e4ef6055da584ba7f221.woff",
     "static/media/NHaasGroteskTXPro-75Bd.woff": "/Hatom-Token/static/media/NHaasGroteskTXPro-75Bd.ee110a2a089ad336af84.woff",
+    "static/media/machine-mobile.svg": "/Hatom-Token/static/media/machine-mobile.315d50ec00708181338fa86d8044a40a.svg",
     "static/media/machine.svg": "/Hatom-Token/static/media/machine.26a0c6bf9994f38ae87bce6c5c4fbe65.svg",
+    "static/media/machine-mobile-dark.svg": "/Hatom-Token/static/media/machine-mobile-dark.fad6df8bf63dd800d69386dfb0634d52.svg",
     "static/media/machine-dark.svg": "/Hatom-Token/static/media/machine-dark.e1913e7a9dd8a8ac2d5496397700ae51.svg",
     "static/media/logo.svg": "/Hatom-Token/static/media/logo.f2b719d35882ef06a570d98141717260.svg",
     "static/media/section-2.png": "/Hatom-Token/static/media/section-2.2778c9f2654523741927.png",
@@ -26,12 +30,12 @@
     "static/media/slick.ttf": "/Hatom-Token/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Hatom-Token/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Hatom-Token/index.html",
-    "main.febe0935.css.map": "/Hatom-Token/static/css/main.febe0935.css.map",
-    "main.d5067d72.js.map": "/Hatom-Token/static/js/main.d5067d72.js.map",
+    "main.89f4f391.css.map": "/Hatom-Token/static/css/main.89f4f391.css.map",
+    "main.286f666e.js.map": "/Hatom-Token/static/js/main.286f666e.js.map",
     "787.c7064180.chunk.js.map": "/Hatom-Token/static/js/787.c7064180.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.febe0935.css",
-    "static/js/main.d5067d72.js"
+    "static/css/main.89f4f391.css",
+    "static/js/main.286f666e.js"
   ]
 }
