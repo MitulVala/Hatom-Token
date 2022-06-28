@@ -423,22 +423,6 @@ body {
   position: absolute;
 }
 
-.pinSpacer {
-  order: 0;
-  place-self: 'auto';
-  grid-area: 'auto/auto/auto/auto';
-  z-index: 'auto';
-  float: 'none';
-  flex-shrink: 1;
-  display: 'block';
-  margin: '0px';
-  inset: 'auto';
-  position: 'relative';
-  flex-basis: 'auto';
-  overflow: 'visible';
-  box-sizing: 'border-box'
-}
-
 .trigger {
   transform: 'translate(0px, 0px)';
   inset: '0px auto auto 0px';
@@ -506,19 +490,13 @@ body {
 }
 
 body .App .rotatedCoinTop {
-  top: 26vh;
   top: 80vw;
-  position: fixed;
-  margin: 0 auto;
-  display: flex;
-  align-items: revert;
-  justify-content: center;
 }
 
 @media (min-width: 640px) {
   .rotatedCoinTop {
     top: 30vw !important;
-    margin-right: 30px;
+    /* margin-right: 30px; */
   }
 }
 
@@ -527,6 +505,7 @@ body .App .rotatedCoinTop {
     bottom: 70px !important;
   }
 }
+
 .hero-section .people-img,
 .hero-section .machine-img {
   z-index: 99 !important;

@@ -5,14 +5,16 @@
   width: 100%;
   position: relative;
 }
-.hero-section .heroTitle-content{
+
+.hero-section .heroTitle-content {
   position: absolute;
   right: 0;
   left: 0;
   margin-top: 7.8vw;
   z-index: 50;
 }
-.heroTitle-content .heroTitle{
+
+.heroTitle-content .heroTitle {
   font-size: 80px;
   line-height: 80px;
   font-weight: 800px;
@@ -22,15 +24,19 @@
   text-shadow: 3px 4px 17px rgba(255, 255, 255, 0.2);
   margin-bottom: 8px;
 }
-.heroTitle-content .heroSubtitle{
+
+.heroTitle-content .heroSubtitle {
   font-size: 1.125rem;
-    line-height: 1.75rem;
-    color: rgb(61 144 106);
+  line-height: 1.75rem;
+  color: rgb(61 144 106);
 }
-.hero-section .loading-resource{
+
+.hero-section .loading-resource {
   width: 100%;
 }
-.hero-section .people-img, .hero-section .machine-img{
+
+.hero-section .people-img,
+.hero-section .machine-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,18 +52,20 @@
     margin-bottom: 11px !important;
   }
 
-  .hero-section .people-img, .hero-section .machine-img {
+  .hero-section .people-img,
+  .hero-section .machine-img {
     width: 100%;
     top: 100px;
     margin-bottom: 0;
-}
-  
-.hero-section {
-  padding-top: 100px; 
-  background-repeat: no-repeat;
-  background: linear-gradient(180deg, rgba(3,18,34,1) 0%, rgba(0,0,0,0) 100%);
+  }
 
-}
+  .hero-section {
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(3, 18, 34, 1) 0%, rgba(0, 0, 0, 0) 100%);
+
+  }
+
   .heroTitle-content .heroSubtitle {
     font-size: 22px;
     line-height: 26px;
@@ -68,74 +76,56 @@
 
 }
 
+
 @media (max-width: 767px) {
-
-  #coin-image {
-    background-size: 80% !important;
-    background-repeat: no-repeat !important;
-    background-position: center;
-    height: 100px !important;
-    margin-left: 10px !important;
-    
+  .mobile-machine {
+    position: absolute;
+    top: -250px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 
-  body .App .rotatedCoinTop {
-    top: 40vh !important;
-  }
-
-  body .App .rotatedCoinTop.fixedconin {
-    top: 75vh !important;
-  }
-
-
-
-  .fixedconin {
-    position: absolute !important;
-    bottom: -100px !important;
-    top: 150vh !important;
-  }
-  .fixedconin .sticky-conin{ position: unset !important;}
-
-  .fixedconin #coin-image {
-    background-position-y: 0 !important;
-  }
-
-  .hero-section div:nth-child(2) svg{
+  .hero-section div:nth-child(2) svg {
     height: auto !important;
   }
- 
-
-.heroTitle-content .heroTitle {
-  font-size: 41px !important;
-  line-height: 40px !important;
-  margin-bottom: 11px !important;
-}
-
-.heroTitle-content .heroSubtitle {
-  font-size: 18px;
-  line-height: 26px;
-  max-width: 365px;
-  margin: 0 auto;
-}
 
 
+  .heroTitle-content .heroTitle {
+    font-size: 41px !important;
+    line-height: 40px !important;
+    margin-bottom: 11px !important;
+  }
 
-.hero-section {
-  padding-top: 250px; 
-  background-repeat: no-repeat;
-  background: linear-gradient(180deg, rgba(3,18,34,1) 0%, rgba(3,18,34,1) 50%, rgba(255,255,255,1) 50%);
-}
+  .heroTitle-content .heroSubtitle {
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 365px;
+    margin: 0 auto;
+  }
 
-.hero-section .people-img, .hero-section .machine-img {
-  width: 100%;
-  top: 250px;
-  margin-bottom: 0;
-}
 
-.hero-section .heroTitle-content {top: 100px;}
 
-.header-inner img{
-  top: 3px;
-  position: relative;
-}
+  .hero-section {
+    /* padding-top: 250px;  */
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(3, 18, 34, 1) 0%, rgba(3, 18, 34, 1) 50%, rgba(255, 255, 255, 1) 50%);
+  }
+
+  .hero-section .people-img,
+  .hero-section .machine-img {
+    width: 100%;
+    top: 250px;
+    margin-bottom: 0;
+  }
+
+  .hero-section .heroTitle-content {
+    top: 100px;
+    z-index: 999 !important;
+  }
+
+  .header-inner img {
+    top: 3px;
+    position: relative;
+  }
 }

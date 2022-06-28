@@ -21,7 +21,7 @@ function Section2(props) {
                         <img src={require("../../assets/images/section-2.png")} />
                     </div>
                 <Grid container className='buyToken-container'>
-                    <Grid items lg={6} xs={12}>
+                    <Grid item lg={6} xs={12}>
                         <div className='buyToken-content'>
                         <Typography variant='h4'>
                             $9,449,627.26 
@@ -32,7 +32,7 @@ function Section2(props) {
                         </Typography>
                         </div>
                     </Grid>
-                    <Grid items lg={6} xs={12}>
+                    <Grid item lg={6} xs={12}>
                         <div className='buyToken-button center'>
                             <Button variant="contained" className='gradientBtn primaryButton'>Buy Hatom Tokens</Button>
                         </div>
@@ -43,7 +43,7 @@ function Section2(props) {
                         <span className="text-blue">Features </span>
                         of Hatom Token
                     </Typography>
-                    <Grid items lg={4} md={4} xs={12}>
+                    <Grid item lg={4} md={4} xs={12}>
                         <div className='feature feature1'>
                             <Typography variant='h2'>
                                 Earn
@@ -62,10 +62,10 @@ function Section2(props) {
                         </div>
 
                     </Grid>
-                    <Grid items lg={4} md={4} xs={12}>
+                    <Grid item lg={4} md={4} xs={12}>
                         
                     </Grid>
-                    <Grid items lg={4} md={4} xs={12}>
+                    <Grid item lg={4} md={4} xs={12}>
                         <div className='feature feature3'>
                             <Typography variant='h2'>
                             Supply & Borrow
