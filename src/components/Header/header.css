@@ -1,3 +1,5 @@
+
+
 .header {
   position: absolute;
   z-index: 1;
@@ -86,6 +88,58 @@
 .wrapper .switch .wave{
   width: 44px;
   height: 20px;
+}
+
+
+/* new */
+
+
+.logo-header {
+  padding: 10px 0 !important;
+  margin-top: 15px !important;
+}
+
+.header-inner {
+  margin-top: 10px !important;
+}
+
+.btn-custom {
+  height: 47px;
+  min-width: 80px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(93.58deg, rgba(0, 77, 0, 0.33) 7.62%, rgba(1, 48, 30, 0.33) 104.97%) !important;
+  border-radius: 4px;
+  border: 1.5px solid #004D00 !important;
+  text-shadow: 1px 1px #185c23, -1px -1px #205194;
+
+}
+
+.heroTitle-content  {
+  position: relative;
+}
+
+.heroTitle-content .heroTitle {
+   font-weight: 800 !important;
+   margin-top: -25px !important;
+   
+}
+
+.heroTitle-content .heroTitle.second {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin-left: 10px;
+  
+  background: linear-gradient(270deg, #1B4347 -1.39%, #3D906A 99.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-shadow: 3px 4px 17px rgba(255, 255, 255, 0.2);
+z-index: -1;
 }
 
 /*-------responsive------------------*/

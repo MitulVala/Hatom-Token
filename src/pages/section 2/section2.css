@@ -1,437 +1,488 @@
 .darkbg {
-    background-color : rgb(3 18 34/1)
+  background-color: rgb(3 18 34/1);
 }
 .lightbg {
-    background-color : rgb(255 255 255/1)
+  background-color: rgb(255 255 255/1);
 }
-.buyToken-container{
-    padding-top: 2.5rem;
+.buyToken-container {
+  padding-top: 2.5rem;
+  position: relative;
+  z-index: 5 !important;
 }
-.buyToken-content h4{
-    font-weight: 600;
-    font-size: 34px;
-    color: #000;
-}
-.buyToken-content h4 span{
-    color: rgb(23 156 100);
-}
-.buyToken-content p{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    color: rgb(92 92 92);
-    font-weight: 600;
+.buyToken-content h4 {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 34px;
+  color: #000;
 }
 
-.feature-container{
-    margin-top: 100px;
+.buyToken-content h4 span {
+  color: rgb(23 156 100);
 }
-.feature-container .featureTitle{
-    font-size: 40px;
-    text-align: left;
-    line-height: 1.25;
-    font-weight: 600;
-    margin-bottom: 3rem;
-    width: 100%;
+.buyToken-content p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: rgb(92 92 92);
+  font-weight: 600;
 }
 
-.feature-container .feature{
-    font-size: 1rem;
-    line-height: 1.5rem;
-    text-align: left;
-}
-.feature-container .feature h2{
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.25;
-    color: #000;
-
-}
-.feature-container .feature p{
-    font-size: 1rem;
-    line-height: 1.5rem;
-    opacity: 0.8;
-    color: #000;
-    margin-top: 30px;
-}
-.feature1{
-    max-width: 340px;
-}
-.feature2{
-    max-width: 300px;
-    margin-top: 100px;
-}
-.feature3{
-    max-width: 340px;
-}
-.feature ul.feature-subpoints li::before{
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background:rgb(23 156 100);
-    top: 0;
-    right: 0;
+.feature-container {
+  margin-top: 95px;
 }
 
-.lightbg .feature-container .featureTitle, .lightbg .feature-subpoints, .lightbg .feature-container .feature h2, .lightbg .feature-container .feature p, .lightbg .buyToken-content h4 {
-    color: #222222;
+.feature-container .featureTitle {
+  font-size: 40px;
+  text-align: left;
+  line-height: 1.25;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  width: 100%;
 }
 
-.darkbg .feature-container .featureTitle, .darkbg .feature-subpoints, .darkbg .feature-container .feature h2, .darkbg .feature-container .feature p, .darkbg .buyToken-content h4 {
-    color: #fff !important;
+.feature-container .feature {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+.feature-container .feature h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000;
+}
+.feature-container .feature p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  opacity: 0.8;
+  color: #000;
+  margin-top: 30px;
+}
+.feature1 {
+  max-width: 340px;
+}
+
+.feature2 {
+  max-width: 300px;
+  margin-top: 125px;
+}
+
+.feature3 {
+  max-width: 340px;
+}
+.feature ul.feature-subpoints li::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: rgb(23 156 100);
+  top: 0;
+  right: 0;
+}
+
+.lightbg .feature-container .featureTitle,
+.lightbg .feature-subpoints,
+.lightbg .feature-container .feature h2,
+.lightbg .feature-container .feature p,
+.lightbg .buyToken-content h4 {
+  color: #222222;
+}
+
+.darkbg .feature-container .featureTitle,
+.darkbg .feature-subpoints,
+.darkbg .feature-container .feature h2,
+.darkbg .feature-container .feature p,
+.darkbg .buyToken-content h4 {
+  color: #fff !important;
 }
 
 .mobile-image {
-    display: none;
+  display: none;
 }
 
 .mobile-reverse {
-    background-image: url(../../assets/images/featur-line.png);
-    background-repeat: no-repeat;
-    background-position: 35% 75%;
-    background-size: 55%;
-    
+  background-image: url(../../assets/images/featur-line.png);
+  background-repeat: no-repeat;
+  /* background-position: 35% 75%;
+  background-size: 55%; */
+
+  background-position: 40% 72%;
+  background-size: 57%; 
 }
 
 .middle-section {
-    padding-bottom: 140px;
+  padding-bottom: 140px;
 }
 
 .feature-container .feature3 {
-    margin-left: auto;
+  margin-left: 25%;
 }
 
 .feature-container .feature3 ul {
-    padding: 0 0 0 60px;
+  padding: 0 0 0 13px;
 }
 
 .feature-container .feature3 ul li {
-    position: relative;
+  position: relative;
 }
 .feature-container .feature3 ul li:before {
-    content: '';
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #179c64;
+  display: block;
+  border-radius: 100px;
+  position: absolute;
+  left: -10px;
+  top: 20px;
+}
+
+.buyToken-button .gradientBtn.btn-hatom {
+  background: linear-gradient(
+    270deg,
+    #1b4347 -1.39%,
+    #3d906a 99.46%
+  ) !important;
+  border-radius: 12px !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  padding: 16px 20px !important;
+  color: #fff;
+  font-weight: 400 !important;
+  margin-top: 5px;
+}
+
+.buyToken-content {
+  margin-left: -42px;
+  margin-top: 5px;
+}
+
+@media (max-width: 1200px) and (min-width: 767px) {
+  .feature-container .feature3 {
+    position: relative;
+  }
+}
+
+@media (max-width: 425px) {
+  .mobile-reverse {
+    background-size: 90% !important;
+    background-position: center 20% !important;
+  }
+
+  .feature-container .feature2 {
+    margin-bottom: 90px !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .feature-container .feature2 {
+    margin-bottom: 85px !important;
+  }
+  .mobile-reverse {
+    background-size: 92% !important;
+    background-position: center 21% !important;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .mobile-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 100px 0 50px 0;
+    background-image: url(../../assets/images/bg-section2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center 23%;
+    background-size: 55%;
+    position: relative;
+    /* margin-bottom: 100px; */
+  }
+
+  .mobile-reverse .mobile-image {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    right: 0;
+    opacity: 0;
+  }
+
+  .mobile-reverse .mobile-image img {
+    max-width: 90px;
+    object-fit: contain;
+  }
+
+  .mobile-reverse .mobile-image img {
+    width: 100%;
+    height: 116px;
+  }
+
+  .feature-container .featureTitle {
+    color: #000000;
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 300px;
+    margin: 70px auto;
+    text-align: center;
+  }
+
+  .buyToken-content h4 {
+    font-size: 24px !important;
+    line-height: 23px !important;
+    margin-bottom: 10px !important;
+    color: #000000;
+    text-align: center;
+  }
+
+  .feature-container .feature h2 {
+    color: #000000 !important;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 26px;
+    text-align: center;
+  }
+
+  .middle-section {
+    height: auto;
+  }
+
+  .feature-container .feature {
+    margin: 0 auto;
+  }
+
+  .feature-container .feature p {
+    max-width: 265px;
+    margin: 0 auto;
+    color: #000000 !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 65px !important;
+  }
+
+  .feature-container .feature3 h2 {
+    margin-right: 20px;
+  }
+  .feature-container .feature3 ul {
+    padding: 0 0 0 0px;
+  }
+
+  .feature-container .feature3 ul li {
+    position: relative;
+  }
+  .feature-container .feature3 ul li:before {
+    content: "";
     height: 8px;
     width: 8px;
-    background-color: #179C64;
+    background-color: #179c64;
     display: block;
     border-radius: 100px;
     position: absolute;
     left: -10px;
     top: 20px;
-}
+  }
 
-@media (max-width: 1200px) and (min-width: 767px) {
-    .feature-container .feature3 {
-        position: relative;
-        
-    }
-}
-
-@media (max-width: 425px) {
-    .mobile-reverse {
-        background-size: 90% !important;
-        background-position: center 20% !important;
-    }
-
-    .feature-container .feature2 {
-        margin-bottom: 90px !important;
-    }
-
-}
-
-@media (max-width: 414px) {
-
-    .feature-container .feature2 {
-        margin-bottom: 85px !important;
-    }
-    .mobile-reverse {
-        background-size: 92% !important;
-        background-position: center 21% !important;
-    }
-}
-
-@media (max-width: 992px)  and (min-width: 768px) {
-
-    .mobile-reverse {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
-        padding: 100px 0 50px 0 ;
-        background-image: url(../../assets/images/bg-section2.png) !important;
-        background-repeat: no-repeat;
-        background-position: center 23%;
-        background-size: 55%;
-        position: relative;
-        /* margin-bottom: 100px; */
-    }
-
-    .mobile-reverse .mobile-image {
-        display: block;
-        position: absolute;
-        top: 80px;
-        left: 30px;
-        right: 0;
-        opacity: 0;
-             
-    }
-
-    .mobile-reverse .mobile-image img {
-        max-width: 90px; 
-        object-fit: contain;
-    }
-
-    .mobile-reverse .mobile-image img {
-        width: 100%;
-        height: 116px;
-    }
-    
-    .feature-container .featureTitle {
-        color: #000000;
-        font-size: 32px;
-        line-height: 36px;
-        max-width: 300px;
-        margin: 70px auto;
-        text-align: center;
-    }
-
-    .buyToken-content h4 {
-        font-size: 24px !important;
-        line-height: 23px !important;
-        margin-bottom: 10px !important;
-        color: #000000;
-        text-align: center;
-    }
-
-    .feature-container .feature h2 {
-        color: #000000 !important;
-        font-size: 32px;
-        line-height: 36px;
-        margin-bottom: 26px;
-        text-align: center;
-        
-    }
-
-    .middle-section {
-        height: auto;
-    }
-
-
-    .feature-container .feature {
-        margin: 0 auto;
-    }
-
-    .feature-container .feature p {
-        max-width: 265px;
-        margin: 0 auto;
-        color: #000000 !important;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        text-align: center;
-        margin-bottom: 65px !important;
-    }
-
-    .feature-container .feature3 h2 {
-        margin-right: 20px;
-    }
-    .feature-container .feature3 ul {
-        padding: 0 0 0 60px;
-    }
-
-    .feature-container .feature3 ul li {
-        position: relative;
-    }
-    .feature-container .feature3 ul li:before {
-        content: '';
-        height: 8px;
-        width: 8px;
-        background-color: #179C64;
-        display: block;
-        border-radius: 100px;
-        position: absolute;
-        left: -10px;
-        top: 20px;
-    }
-
-   
-/* 
+  /* 
     .feature-container .feature2 {
         margin-bottom: 85px !important;
     } */
 
-    .buyToken-content p {
-        font-size: 16px;
-        line-height: 22px;
-        margin-bottom: 10px !important;
-        color: #5C5C5C;
-        max-width: 262px;
-        margin: 0 auto 37px auto;
-    
-    }
+  .buyToken-content p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+    color: #5c5c5c;
+    max-width: 262px;
+    margin: 0 auto 37px auto;
+  }
 
-    .buyToken-button {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        
-    }
+  .buyToken-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
 
-    .buyToken-button .primaryButton {
-        border-radius: 12px !important;
-        font-size: 18px;
-        line-height: 22px;
-        padding: 14px 20px !important;
-    }
+  .buyToken-button .primaryButton {
+    border-radius: 12px !important;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px 20px !important;
+  }
 
-    .footerbottom {
-        position: relative;
-    }
-    .footerbottom p {
-        position: absolute;
-        right: 0;
-        bottom: -55px;
-    }
+  .footerbottom {
+    position: relative;
+  }
+  .footerbottom p {
+    position: absolute;
+    right: 0;
+    bottom: -55px;
+  }
 
-    .blockslot {
-        padding: 15px 20px !important;
-    }
+  .blockslot {
+    padding: 15px 20px !important;
+  }
 }
 
 @media (max-width: 767px) {
+  .mobile-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 100px 0 50px 0;
+    background-image: url(../../assets/images/bg-section2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center 26%;
+    background-size: 95%;
+    position: relative;
+  }
 
-    .mobile-reverse {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
-        padding: 100px 0 50px 0 ;
-        background-image: url(../../assets/images/bg-section2.png) !important;
-        background-repeat: no-repeat;
-        background-position: center 23%;
-        background-size: 95%;
-        position: relative;
-        
-    }
+  .mobile-reverse .mobile-image {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    right: 0;
+    opacity: 0;
+  }
 
-    .mobile-reverse .mobile-image {
-        display: block;
-        position: absolute;
-        top: 80px;
-        left: 30px;
-        right: 0;
-        opacity: 0;
-    }
+  .mobile-reverse .mobile-image img {
+    max-width: 90px;
+    object-fit: contain;
+  }
 
-    .mobile-reverse .mobile-image img {
-        max-width: 90px; 
-        object-fit: contain;
-    }
+  .mobile-reverse .mobile-image img {
+    width: 100%;
+    height: 116px;
+  }
 
-    .mobile-reverse .mobile-image img {
-        width: 100%;
-        height: 116px;
-    }
-    
-    .feature-container .featureTitle {
-        color: #000000;
-        font-size: 32px;
-        line-height: 36px;
-        max-width: 300px;
-        margin: 50px auto;
-    }
+  .feature-container .featureTitle {
+    color: #000000;
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 300px;
+    margin: 100px auto 50px auto; 
+  }
 
-    .buyToken-content h4 {
-        font-size: 24px !important;
-        line-height: 23px !important;
-        margin-bottom: 10px !important;
-        color: #000000;
-    }
+  .buyToken-content h4 {
+    font-size: 24px !important;
+    line-height: 23px !important;
+    margin-bottom: 10px !important;
+    color: #000000;
+  }
 
-    .feature-container .feature h2 {
-        color: #000000 !important;
-        font-size: 32px;
-        line-height: 36px;
-        margin-bottom: 26px;
-        
-    }
+  .feature-container .feature h2 {
+    color: #000000 !important;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 26px;
+  }
 
-    .feature-container .feature p {
-        max-width: 265px;
-        margin: 0 auto;
-        color: #000000 !important;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        text-align: center;
-        margin-bottom: 60px !important;
-    }
+  .feature-container .feature p {
+    max-width: 265px;
+    margin: 0 auto;
+    color: #000000 !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 60px !important;
+  }
 
-    .feature-container .feature3 h2 {
-        margin-right: 20px;
-    }
-    .feature-container .feature3 ul {
-        padding: 0 0 0 60px;
-    }
+  .feature-container .feature3 h2 {
+    margin-right: 20px;
+  }
+  .feature-container .feature3 ul {
+    padding: 0 0 0 70px;
+  }
 
-    .feature-container .feature3 ul li {
-        position: relative;
-    }
-    .feature-container .feature3 ul li:before {
-        content: '';
-        height: 8px;
-        width: 8px;
-        background-color: #179C64;
-        display: block;
-        border-radius: 100px;
-        position: absolute;
-        left: -10px;
-        top: 20px;
-    }
+  .feature-container .feature3 ul li {
+    position: relative;
+  }
 
-   
-/* 
+  .feature-container .feature1 p {
+    margin-bottom: 90px !important;
+  }
+
+  .feature-container .feature2 p {
+    margin-bottom: 90px !important;
+  }
+
+  .feature-container .feature2 h2 {
+    margin-bottom: 15px !important;
+  }
+
+  .feature-container .feature3 p {
+    margin-bottom: 35px !important;
+  }
+
+  .feature-container .feature3 ul li {
+    margin-bottom: 10px;
+  }
+  
+  .feature-container .feature3 ul li:before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #179c64;
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    left: -10px;
+    top: 20px;
+  }
+
+  /* 
     .feature-container .feature2 {
         margin-bottom: 85px !important;
     } */
 
-    .buyToken-content p {
-        font-size: 16px;
-        line-height: 22px;
-        margin-bottom: 10px !important;
-        color: #5C5C5C;
-        max-width: 262px;
-        margin: 0 auto 37px auto;
-    
-    }
+  .buyToken-content p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+    color: #5c5c5c;
+    max-width: 262px;
+    margin: 0 auto 37px auto;
+  }
 
-    .buyToken-button {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        
-    }
+  .buyToken-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
 
-    .buyToken-button .primaryButton {
-        border-radius: 12px !important;
-        font-size: 18px;
-        line-height: 22px;
-        padding: 14px 20px !important;
-    }
+  .buyToken-button .primaryButton {
+    border-radius: 12px !important;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px 20px !important;
+  }
 
-    .footerbottom {
-        position: relative;
-    }
-    .footerbottom p {
-        position: absolute;
-        right: 0;
-        bottom: -55px;
-    }
+  .footerbottom {
+    position: relative;
+  }
+  .footerbottom p {
+    position: absolute;
+    right: 0;
+    bottom: -55px;
+  }
 
-    .blockslot {
-        padding: 15px 20px !important;
-    }
+  .blockslot {
+    padding: 15px 20px !important;
+  }
+
+  .buyToken-content {
+    margin-left: 0;
+    margin-top: -22px;
+  }
+
+  .middle-section {
+    padding-bottom: 100px !important;
+  }
+
 }

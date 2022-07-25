@@ -16,6 +16,8 @@ import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger);
 
+
+
 function App() {
 
   const screenWidth = () => {

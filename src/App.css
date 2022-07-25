@@ -9,11 +9,28 @@
 
 body {
   font-family: Arial !important;
+  padding: 0;
+  margin: 0 !important;
+  overflow-x: hidden !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1280px !important;
+      padding: 0 !important;
+  }
 }
 
 @media (min-width: 1270px) {
   .css-1oqqzyl-MuiContainer-root {
     max-width: 1280px !important;
+  }
+}
+
+@media (min-width: 600px) {
+.css-1oqqzyl-MuiContainer-root {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
 
@@ -24,7 +41,7 @@ body {
 }
 
 /* .App-header {
-  background-color: #282c34;
+  background-color: #282c34;N
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -495,7 +512,8 @@ body .App .rotatedCoinTop {
 
 @media (min-width: 640px) {
   .rotatedCoinTop {
-    top: 30vw !important;
+    top: calc(30vw - 50px)!important;
+    /* top: 30vw !important; */
     /* margin-right: 30px; */
   }
 }

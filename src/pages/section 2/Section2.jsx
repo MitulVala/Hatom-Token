@@ -21,7 +21,7 @@ function Section2(props) {
                         <img src={require("../../assets/images/section-2.png")} />
                     </div>
                 <Grid container className='buyToken-container'>
-                    <Grid item lg={6} xs={12}>
+                    <Grid item lg={7} xs={12}>
                         <div className='buyToken-content'>
                         <Typography variant='h4'>
                             $9,449,627.26 
@@ -32,9 +32,9 @@ function Section2(props) {
                         </Typography>
                         </div>
                     </Grid>
-                    <Grid item lg={6} xs={12}>
+                    <Grid item lg={5} xs={12}>
                         <div className='buyToken-button center'>
-                            <Button variant="contained" className='gradientBtn primaryButton'>Buy Hatom Tokens</Button>
+                            <Button variant="contained" className='gradientBtn btn-hatom primaryButton'>Buy Hatom Tokens</Button>
                         </div>
                     </Grid>
                 </Grid>

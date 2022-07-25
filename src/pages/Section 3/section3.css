@@ -11,14 +11,21 @@
     text-align: left;
 }
 .card-container{
+    margin: 0;
     margin-top: 4rem;
+    
 }
 .card{
-    margin: 0 15px 30px;
+    margin: 0 0px 30px 0px;
     border-radius: 12px !important;
     background: transparent !important;
     box-shadow: none !important;
 }
+
+.card-container2 {
+    margin: 70px -24px 0 -24px;
+}
+
 .imageContainer{
     width: 100%;
     height: 314px;
@@ -41,14 +48,15 @@
     font-weight: 600;
 }
 .cardDetail p{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 18px;
+    line-height: 24px;
     color: rgb(206 224 241);
-    margin-bottom: 26px;
+    margin-bottom: 22px;
 }
 .learn_moreBtn{
-    font-size: 1rem;
-    padding: 0.5rem;
+    font-size: 12px;
+    padding: 0;
+    line-height: 15px;
     color: rgba(53,85,247,.8);
     text-transform: uppercase;
     font-weight: 600;
@@ -142,7 +150,7 @@
     }
 
     .understanding-section{
-        padding: 80px 0;
+        padding: 90px 0 30px 0;
     }
 
     .card-container {
@@ -152,7 +160,7 @@
     .understandingTitle {
         font-size: 24px !important;
         line-height: 30px !important; 
-        margin-bottom: 30px;
+        margin-bottom: 30px !important;
     }
 
     .feature-container .feature h2 {
@@ -194,13 +202,17 @@
     .cardDetail h3 {
         font-size: 20px !important;
         line-height: 22px !important;
-        margin-bottom: 26px;
+        margin-bottom: 26px !important;
     }
 
     .cardDetail p {
         font-size: 18px;
         line-height: 24px;
         font-weight: 400;
+    }
+
+    .learn_moreBtn {
+        margin-bottom: 18px;
     }
 }
 

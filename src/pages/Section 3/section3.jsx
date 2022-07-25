@@ -17,8 +17,8 @@ function Section3() {
                     <Typography varient="h2" component="h2" className='understandingTitle'>
                         Understanding Hatom
                     </Typography>
-                    <Grid container className='card-container'>
-                        <Grid items xl={4} lg={4} md={4}>
+                    <Grid container className='card-container card-container2 'columnSpacing={{ xs: 2, sm: 2, md: 3, lg: 4 }}>
+                        <Grid item xl={4} lg={4} md={4}>
                             <Card className='card'>
                                 <div className='imageContainer'>
                                     <Lottie
@@ -45,7 +45,7 @@ function Section3() {
                                 </div>
                             </Card>
                         </Grid>
-                        <Grid items  xl={4} lg={4} md={4}>
+                        <Grid item  xl={4} lg={4} md={4}>
                             <Card className='card'>
                                 <div className='imageContainer'>
                                     <Lottie
@@ -72,7 +72,7 @@ function Section3() {
                                 </div>
                             </Card>
                         </Grid>
-                        <Grid items xl={4} lg={4} md={4}>
+                        <Grid item  xl={4} lg={4} md={4}>
                             <Card className='card'>
                                 <div className='imageContainer'>
                                     <Lottie

@@ -42,13 +42,22 @@
     background: linear-gradient(93.58deg, rgba(0, 77, 0, 0.33) 7.62%, rgba(1, 48, 30, 0.33) 104.97%) !important;
     font-size: 12px !important;
     line-height: 26px;
+    height: 47px;
+    min-width: 80px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(93.58deg, rgba(0, 77, 0, 0.33) 7.62%, rgba(1, 48, 30, 0.33) 104.97%) !important;
+    border-radius: 4px;
+    border: 1.5px solid #004D00 !important;
+    text-shadow: 1px 1px #185c23, -1px -1px #205194;
 }
 
 .footerbottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 45px;
     border-bottom: 1px solid rgba(132, 147, 181, 0.3);
 }
 
@@ -115,6 +124,15 @@
 
 @media (max-width: 767px) {
     .footer-section {
-        padding-top: 20px !important;
+        padding-top: 0px !important;
+    }
+
+    .app-Btn {
+        display: none !important;
+    }
+
+    .footerbottom ul li svg {
+        height: 20px;
+        width: 30px;
     }
 }

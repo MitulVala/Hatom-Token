@@ -25,6 +25,7 @@ function Section4() {
         slidesToShow: 2,
         rows: 1,
         slidesToScroll: 1,
+        // variableWidth: true,
         responsive: [
             {
                 breakpoint: 767,
@@ -49,11 +50,11 @@ function Section4() {
 
                     }}
                     style={{ float: "right", width: "auto", height: "auto" }} />
-                <Container>
+                <Container className="">
                     <Typography varient="h2" component="h2" className='partnersTitle'>
                         Partners
                     </Typography>
-                    <div>
+                 
                     <Slider {...settings}>
                         <div className='div-slider'>
                             <Card className={(isDarkModeOn) ? 'card darkCard' : 'card lightCard'}>
@@ -118,7 +119,7 @@ function Section4() {
                             </Card>
                         </div>
                     </Slider>
-                    </div>
+                    
                     
                 </Container>
                 <Container>

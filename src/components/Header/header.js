@@ -65,14 +65,14 @@ function Header(props) {
 
   return (
     <div className={sticky ? "header" : "header  header-sticky"}>
-      <Container>
+      <Container className="container">
         <Grid
           container
           direction="row"
           className={"header-container"}
           alignItems="center"
         >
-          <Grid className={"header-inner"}>
+          <Grid className={"header-inner logo-header"}>
             <img src={logo} alt="logo" />
           </Grid>
           <button
@@ -85,7 +85,7 @@ function Header(props) {
             className={`header-inner menu-hide ${customeClass}`}
             justify="flex-end"
             alignItems="center"
-            gap={5}
+            gap={2.5}
           >
             <button className="btn btn-close" onClick={() => setclass("")}>X</button>
             <Typography className="navLink">Markets</Typography>
@@ -105,7 +105,7 @@ function Header(props) {
             />
           </Grid>
           <Grid>
-            <Button variant="contained" className="headerButton gradientBtn">
+            <Button variant="contained" className="headerButton btn-custom gradientBtn">
               App
             </Button>
           </Grid>

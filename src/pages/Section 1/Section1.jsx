@@ -45,11 +45,12 @@ function Section1() {
     <div className='hero-section' id="one">
       <div className='heroTitle-content'>
         <Typography className='heroTitle'>Hatom Token</Typography>
+        <Typography className='heroTitle second'>Hatom Token</Typography>
         <Typography className='heroSubtitle'>
           lorem ipsum dolor sit amet consectetuer adipiscing elit
         </Typography>
       </div>
-      <div>
+      <div className="mobile-view">
         {!isMobile &&
           <Lottie options={defaultOptions} style={{ position: 'absolute', left: 0 }} />
         }

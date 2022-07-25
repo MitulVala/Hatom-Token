@@ -18,12 +18,12 @@ function Footer() {
           <Grid container>
             <Grid  lg={10} md={12} xs={12} sm={10}>
               <Grid container>
-                <Grid  lg={3}  md={3} sm={3}  xs={12}>
+                <Grid  lg={2.6}  md={3} sm={3}  xs={12}>
                   <div className="footer-logo">
                     <img src={logofooter} />
                   </div>
                 </Grid>
-                <Grid  lg={3}  md={3} sm={3} xs={6}>
+                <Grid  lg={3.4}  md={3} sm={3} xs={6}>
                   <Typography
                     varient="h3"
                     component="h5"

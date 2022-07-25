@@ -36,7 +36,7 @@
 
 @media (max-width: 767px) {
     .diclaimer-section {
-        padding: 80px 0 450px 0;
+        padding: 67px 0 555px 0;
         background-position: 50% 85% !important;
         background-image: url('../../assets/images/mobile-disclaimer.svg');
         text-align: center;
@@ -58,11 +58,11 @@
     }
 
     .diclaimer-section .leagal-Btn {
-        padding: 12px 20px !important;
+        /* padding: 12px 20px !important;
         border-radius: 8px !important;
         height: 40px;
         font-size: 14px !important;
         line-height: 19px !important;
-        margin: 0 auto !important;
+        margin: 0 auto !important; */
     }
 }

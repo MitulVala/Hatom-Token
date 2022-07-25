@@ -15,9 +15,9 @@
 }
 
 .heroTitle-content .heroTitle {
-  font-size: 80px;
+  font-size: 78px;
   line-height: 80px;
-  font-weight: 800px;
+  font-weight: 800;
   letter-spacing: 0.06px;
   font-weight: bolder;
   color: #fff;
@@ -109,7 +109,8 @@
   .hero-section {
     /* padding-top: 250px;  */
     background-repeat: no-repeat;
-    background: linear-gradient(180deg, rgba(3, 18, 34, 1) 0%, rgba(3, 18, 34, 1) 50%, rgba(255, 255, 255, 1) 50%);
+    /* background: linear-gradient(180deg, rgba(3, 18, 34, 1) 0%, rgba(3, 18, 34, 1) 50%, rgba(255, 255, 255, 1) 50%); */
+    background: linear-gradient(180deg, rgb(4 24 59) 0%, rgb(4 24 59) 50%, rgba(255, 255, 255, 1) 50%);
   }
 
   .hero-section .people-img,
@@ -121,11 +122,34 @@
 
   .hero-section .heroTitle-content {
     top: 100px;
-    z-index: 999 !important;
+    z-index: 100 !important;
   }
 
   .header-inner img {
-    top: 3px;
+    top: 0px;
+    left: -3px;
     position: relative;
   }
+  
+  .btn-custom {
+    height: 30px;
+    top: 3px;
+    margin-right: 25px !important;
+  }
+
+  .btn-open {
+    width: 23px;
+    right: 9px;
+    top: 25px;
+  }
+
+  .heroTitle-content .heroTitle {
+    margin-top: -30px !important;
+  }
+
+  .hero-section .mobile-view{
+    top: 0px;
+    position: relative;
+  }
+
 }
