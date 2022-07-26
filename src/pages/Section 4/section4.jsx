@@ -28,6 +28,15 @@ function Section4() {
         // variableWidth: true,
         responsive: [
             {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: false,
+                    rows: 1,
+                }
+            },
+            {
                 breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
@@ -36,6 +45,7 @@ function Section4() {
                     rows: 2,
                 }
             }
+            
         ]
     };
     return (

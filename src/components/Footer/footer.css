@@ -125,6 +125,7 @@
 @media (max-width: 767px) {
     .footer-section {
         padding-top: 0px !important;
+        padding-left: 10px;
     }
 
     .app-Btn {
@@ -134,5 +135,13 @@
     .footerbottom ul li svg {
         height: 20px;
         width: 30px;
+    }
+
+    .text-subscribe {
+        margin-bottom: 97px !important;
+    }
+
+    .text-subscribe.last {
+        margin-bottom: 75px !important;
     }
 }

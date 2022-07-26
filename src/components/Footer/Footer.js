@@ -16,7 +16,7 @@ function Footer() {
       <div className="footer-section">
         <Container>
           <Grid container>
-            <Grid  lg={10} md={12} xs={12} sm={10}>
+            <Grid  lg={10} md={10} xs={12} sm={10}>
               <Grid container>
                 <Grid  lg={2.6}  md={3} sm={3}  xs={12}>
                   <div className="footer-logo">
@@ -46,7 +46,7 @@ function Footer() {
                   >
                     Governance
                   </Typography>
-                  <Typography className="text-subscribe">
+                  <Typography className="text-subscribe ">
                     <Link>Overview</Link>
                     <Link>Hatom token</Link>
                   </Typography>
@@ -60,7 +60,7 @@ function Footer() {
                   >
                     Security
                   </Typography>
-                  <Typography className="text-subscribe">
+                  <Typography className="text-subscribe last">
                     <Link>Audits</Link>
                     <Link>Formal Verifications</Link>
                     <Link>Bug Bounty</Link>
@@ -69,7 +69,7 @@ function Footer() {
               </Grid>
             </Grid>
 
-            <Grid  lg={2}  md={12} sm={2} xs={1}>
+            <Grid  lg={2}  md={2} sm={2} xs={1}>
               <div className="btn-div">
                    
             <Button
